@@ -18,6 +18,7 @@ public class User implements Serializable {
 
     @Id
     @JsonView({Views.IdName.class})
+    @Column(length = 150)
     private String id;
     @JsonView({Views.IdName.class})
     private String name;

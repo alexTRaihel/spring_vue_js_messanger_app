@@ -20,7 +20,7 @@
                 </v-layout>
                 <v-btn v-if="!isMyProfile"
                        @click="changeSubscription">
-                    {{isISubscribed ? 'Unsubscribe' : 'Subscribe'}}}
+                    {{isISubscribed ? 'Unsubscribe' : 'Subscribe'}}
                 </v-btn>
             </v-flex>
         </v-layout>

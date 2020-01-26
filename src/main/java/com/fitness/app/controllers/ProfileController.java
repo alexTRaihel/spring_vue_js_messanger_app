@@ -25,7 +25,7 @@ public class ProfileController {
         return user;
     }
 
-    @PostMapping("change-subscription")
+    @PostMapping("change-subscription/{channelId}")
     @JsonView(Views.FullInfo.class)
     public User changeSubscription(
             @AuthenticationPrincipal User subscriber,
